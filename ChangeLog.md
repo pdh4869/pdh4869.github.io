@@ -14,3 +14,6 @@ afoijeilikqjl
 
 ## 0.3.0 
 - [x] naver search advisor
+
+## 0.4.0
+- [x] [SEO NAVER] (https://github.com/pdh4869/pdh4869.github.io/issues/7)
