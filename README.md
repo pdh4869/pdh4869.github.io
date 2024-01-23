@@ -2,7 +2,8 @@
 ![image](https://github.com/pdh4869/pdh4869.github.io/assets/76561901/7332fca7-ccbe-4420-bb50-5b58fbcf8d4b)
 
 # Stack
-<img src="https://img.shields.io/pypi/pyversions/:packageName"/>
+<img src="[https://img.shields.io/pypi/pyversions/:packageName](https://img.shields.io/badge/Python-%233776AB?logo=Python
+)"/>
 
 
 OS - Ubuntu 22.04.3 LTS (WSL)
