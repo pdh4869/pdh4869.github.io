@@ -10,7 +10,6 @@
 "/><img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat&logo=IntelliJ%20IDEA&logoColor=white
 "/>
 <img src="https://img.shields.io/badge/Vmware-607078?style=flat&logo=Vmware&logoColor=white"/>
-<img src=""/>
 
 
 OS - Ubuntu 22.04.3 LTS (WSL)
