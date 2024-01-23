@@ -19,7 +19,10 @@ afoijeilikqjl
 - [x] [SEO NAVER] (https://github.com/pdh4869/pdh4869.github.io/issues/7)
 
 ## 0.5.0
-- [ ] firebase & deploy dev STG
+- [x] firebase & deploy dev STG
 
 ## 0.6.0
-- [ ] css
+- [x] css
+
+## 0.7.0
+- [x] made resume html
