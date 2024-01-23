@@ -4,21 +4,45 @@
 	<meta charset="utf-8">
 	<title>Resume</title>
 	<style>
+		body { 
+			background-color: wheat;
+			border-style: groove;
+			border-width: 10px;
+			
+		}
+		h1 {
+			background-color: #7B68EE;
+			padding-bottom: 10px;
+			padding-top: 10px;
+		}
 		h2 {
 			color: red;
+			margin-left: 10px;
 		}
 
 		h3 { 
-			font-family: "D2Coding"
+			font-family: "D2Coding";
+			margin-left: 10px;
 		}
+
+		footer {
+			background-color: #7B68EE;
+			
+		}
+		li {
+			font-family: fantasy;
+		}
+		img {
+			margin-left: 10px;
+		}
+
 	</style>
 </head>
 
 <body>
 	<header>
-		<h1>이력서</h1>
-		<h2>박대호</h2>
-		<br>
+		<h1>이력서</h1><hr>
+		<h2>박대호</h2><img src="images/증명사진.jpeg" width="150" height="200"><hr>
 		<h2>목차</h2>
 	</header>
 
@@ -29,27 +53,32 @@
 			<li><a href="#experience">경력</a></li>
 			<li><a href="#skills">기술</a></li>
 		</ul>
+		<hr>
 	</nav>
 
 	<article>
 		<section id="profile">
 			<h2>프로필</h2>
-			<p>
-				[프로필 내용]
-			</p>
-		</section>
+			<ul>
+				<li>
+					<p>
+						<h3>백엔드 개발자 지망생</h3>
+					</p>
+				</li>
+			</ul>
+		</section><hr>
 
 		<section id="education">
 			<h2>학력</h2>
 			<ul>
 				<li>
-					<h3>창원대학교 정보통신공학과 학사 (2023.02.17)</h3>
+					<h3>창원대학교 정보통신공학과 학사 (졸업일: 2023.02.17)</h3>
 					<p>
 						개발, 네트워크, 인공지능, 전기전자 관련 강의를 수강하였습니다.	
 					</p>
 				</li>
 			</ul>
-		</section>
+		</section><hr>
 
 		<section id="experience">
 			<h2>경력</h2>
@@ -68,7 +97,7 @@
 					</p>
 				</li>
 			</ul>
-		</section>
+		</section><hr>
 
 		<section id="skills">
 			<h2>기술</h2>
@@ -80,10 +109,12 @@
 		</ul>
 		</section>
 
-	</article>
-	<br><br><br>
-	<footer>
-		<p>https://pdh4869.github.io @ 2024</p>
+	</article><br><hr>
+
+	<footer align="center">
+		<p>Homepage: https://pdh4869.github.io @ 2024</p>
+		<p>HP: 010-1234-5463</p>
+		<p>Address: 서울특별시 동작구</p>
 	</footer>
 </body>
 
