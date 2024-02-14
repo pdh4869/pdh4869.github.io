@@ -12,7 +12,45 @@ OS - Ubuntu 22.04.3 LTS (WSL)
 Tool - Visual Studio Code
 
 # 배포 방법
-Firebase
+```
+// Docker hub에 image 배포 
+sudo docker run --name blog-1 \\n-p 9052:80 -v /home/dhpark/code/pdh4869.github.io:/usr/share/nginx/html \\n-d nginx
+sudo docker tag blog-1 dhparkdocker/blog-1:0.1.0
+sudo docker push dhparkdocker/blog-1:0.1.0
+
+// fly.toml 수정
+# fly.toml app configuration file generated for pdh4869-github-io on 2024-02-13T17:34:30+09:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'pdh4869-github-io'
+primary_region = 'nrt'
+
+[build]
+  #image = "nginx"
+  #image = "dhparkdocker/blog-1:0.1.0"
+  dockerfile = "Dockerfile"
+
+[http_service]
+  internal_port = 80
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+[[vm]]
+  cpu_kind = 'shared'
+  cpus = 1
+  memory_mb = 256
+
+
+// Dockerfile 수정
+FROM nginx
+COPY . /usr/share/nginx/html/
+
+```
 
 # 감사 - 디자인 템플릿 원천 코드
 https://html5up.net/aerial
