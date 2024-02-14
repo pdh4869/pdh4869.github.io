@@ -18,7 +18,8 @@ sudo docker run --name blog-1 \\n-p 9052:80 -v /home/dhpark/code/pdh4869.github.
 sudo docker tag blog-1 dhparkdocker/blog-1:0.1.0
 sudo docker push dhparkdocker/blog-1:0.1.0
 
-// fly.toml 수정 (Dockerfile 사용하지 않으려면 build를 nginx로, 배포할 블로그 폴더에서 cp . /usr/share/nginx/html/ 수행함)
+// fly.toml 수정
+// (Dockerfile 사용하지 않으려면 build를 nginx로, 배포할 블로그 폴더에서 cp . /usr/share/nginx/html/ 수행함)
 # fly.toml app configuration file generated for pdh4869-github-io on 2024-02-13T17:34:30+09:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
