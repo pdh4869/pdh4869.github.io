@@ -6,15 +6,35 @@
 -->
 <html>
 	<head>
-		<title>DAEHO PARK~</title>
+		<title>DAEHO PARK</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<meta name="description" content="dhpark's web page">
 		<meta property="og:title" content="open graph park title">
 		<meta property="og:description" content="open graph park description">
 		<meta property="og:image" content="https://pdh4869.github.io/images/anonymous.png">
-			<link rel="stylesheet" href="assets/css/main.css" />
-			<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="https://webfontworld.github.io/gmarket/GmarketSans.css" rel="stylesheet">
+		<link href="assets/css/main.css" rel="stylesheet">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<style>
+			body {
+				font-family: GmarketSans;
+			}
+			.divider-divs > div {
+			position: relative;
+			margin-bottom: 10px; /* 원하는 여백 설정 */
+		}
+		.divider-divs > div::after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 1px;
+			background-color: #dee2e6;
+		}
+		</style>
 	</head>
 	<body class="is-preload">
 		<div id="wrapper">
@@ -24,23 +44,103 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1>DAEHO PARK</h1>
-						<p>Backend Developer &nbsp;&bull;&nbsp; Data Analysis &nbsp;&bull;&nbsp; Ethical Hacking</p>
-						<nav>
-							<ul>
-								<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="https://pdh4869.github.io/resume.html" class="icon brands fa-github"><span class="label">Github</span></a></li>
-								<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
+						<h1 style="margin-left: 50px;">DAEHO PARK Portfolio</h1>
+						<div style="justify-content: center; display: flex; gap: 250px;">
+							<div>
+								<h2>About me</h2>
+								<div style="color: inherit">
+									<p>백엔드 개발자 지망생 박대호입니다.</p>
+									<span>현재 엔코아 아카데미에서</span> <span style="font-weight: 600">"한화시스템 BEYOND SW CAMP"</span>라는 부트캠프를 진행 중입니다. </p>
+									<p>Java, Spring을 활용한 백엔드 개발을 중심으로 웹 개발에 필요한 기술을 학습하고, 다수의</p>
+									<p>프로젝트를 진행 중입니다.</p>
+								</div>
+							</div>
+							<div>
+								<h2>contact</h2>
+								<div style="padding-top: 3px">
+									<p><img class="" src="assets/images/email.png" style="width: 1em; height: 1em"/> <span class="font-bold text-default mr-2">pkd4869@naver.com</span></p>
+									<p><img class="" src="assets/images/github.png" style="width: 1em; height: 1em"/> <a href="https://github.com/pdh4869" style="color: #905DFF;">Github</a></p>
+									<p><img class="" src="assets/images/linkedin.png" style="width: 1em; height: 1em; margin-right: 5px;"/><a href="https://www.linkedin.com/in/%EB%8C%80%ED%98%B8-%EB%B0%95-942b24245/" style="color: #905DFF;">LinkedIn</a></p>
+								</div>
+							</div>
+						</div>
 					</header>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
+					<article>
+						<section id="profile">
+							<h2>Profile</h2>
+							<div style="display: flex; gap: 40px">
+								<div>
+									<p>2017.03 - 2023.02</p>
+									<p><b>창원대학교</b></p>
+								</div>
+								<div>
+									<p>정보통신공학과</p>
+									<p>3.35 / 4.5</p>
+								</div>
+							</div>
+						</section><hr>
+				
+						<section>
+							<h2>Projects</h2>
+						</section><hr/>
+				
+						<section id="stack">
+							
+							<div class="divider-divs">
+								<h2>Stack</h2>
+								<div style="display:flex; gap:100px; padding-bottom: 30px; padding-top: 20px">
+									<div><span class="break-words font-bold sm:mt-0">Frontend</span></div>
+									<div class="mt-4 md:mt-0 col-span-4">
+											<li><img src="https://img.shields.io/badge/Vue.js-35495E?style=flate&logo=vuedotjs&logoColor=4FC08D"></li>
+											<li><img src="https://img.shields.io/badge/html5-E34F26?style=flat&logo=html5&logoColor=white"></li>
+											<li><img src="https://img.shields.io/badge/css-1572B6?style=flat&logo=css3&logoColor=white"></li>
+											<li><img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=black"></li>
+									</div>
+								</div>
+								
+								<div style="display: flex; gap: 100px; padding-bottom: 30px; padding-top: 20px">
+									<div><span class="break-words font-bold sm:mt-0">Backend</span></div>
+									<div class="mt-4 md:mt-0 col-span-4">
+										<li><img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"></li>
+										<li><img src="https://img.shields.io/badge/spring-6DB33F?style=flat&logo=spring&logoColor=white"></li>
+										<li><img src="https://img.shields.io/badge/springboot-6DB33F?style=flat&logo=springboot&logoColor=white"></li>
+									</div>
+								</div>
+								
+								<div style="display: flex; gap: 90px; padding-bottom: 30px; padding-top: 20px">
+									<div><span class="break-words font-bold sm:mt-0">Database</span></div>
+									<div class="mt-4 md:mt-0 col-span-4">
+											<li><img src="https://img.shields.io/badge/mariaDB-003545?style=flat&logo=mariaDB&logoColor=white"></li>
+									</div>
+								</div>
+
+								<div style="display: flex; gap: 150px; padding-bottom: 30px; padding-top: 20px">
+									<div><span>OS</span></div>
+									<div><li><img src="https://img.shields.io/badge/linux-FCC624?style=flat&logo=linux&logoColor=black"></li></div>
+								</div>
+								<div style="display: flex; gap: 90px; padding-bottom: 30px; padding-top: 20px">
+									<div><span>Language</span></div>
+									<div>
+										<li><img src="https://img.shields.io/badge/python-3776AB?style=flat&logo=python&logoColor=white"></li>
+										<li><img src="https://img.shields.io/badge/Language-C?style=flat&logo=C&logoColor=white&color=%23A8B9CC"></li>
+									</div>
+								</div>
+							</div>
+						</section>
+						
+						<section id="tools">
+							<h2>Tools</h2>
+							<ul>
+								<img src="https://img.shields.io/badge/Visual%20Studio%20Code-007ACC?style=flat&logo=Visual%20Studio%20Code&logoColor=white"/>
+								<img src="https://img.shields.io/badge/Anaconda-44A833?style=flat&logo=Anaconda&logoColor=white"/>
+								<img src="https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=flat&logo=Eclipse%20IDE&logoColor=white"/>
+								<img src="https://img.shields.io/badge/Vmware-607078?style=flat&logo=Vmware&logoColor=white"/>
+							</ul>
+						</section>
+				
+					</article>
+
 
 			</div>
 		</div>
