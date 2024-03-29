@@ -1,5 +1,7 @@
-# dhpark's Github for Development
-![image](https://github.com/pdh4869/pdh4869.github.io/assets/76561901/7332fca7-ccbe-4420-bb50-5b58fbcf8d4b)
+# DAEHO PARK Portfolio
+백엔드 개발자 지망생 박대호입니다. 현재 엔코아 아카데미에서 "한화시스템 BEYOND SW CAMP"라는 부트캠프를 진행 중입니다.</span> <br /><br />
+Java, Spring을 활용한 백엔드 개발을 중심으로 웹 개발에 필요한 기술을 학습하고, 다수의 프로젝트를 진행 중입니다.
+
 
 ### Stack
 <img src="https://img.shields.io/badge/Vue.js-35495E?style=flate&logo=vuedotjs&logoColor=4FC08D"/><img src="https://img.shields.io/badge/html5-E34F26?style=flat&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css-1572B6?style=flat&logo=css3&logoColor=white"/><img src="https://img.shields.io/badge/javascript-F7DF1E?style=flat&logo=javascript&logoColor=black"/><img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/><img src="https://img.shields.io/badge/spring-6DB33F?style=flat&logo=spring&logoColor=white"/><img src="https://img.shields.io/badge/springboot-6DB33F?style=flat&logo=springboot&logoColor=white"/>
